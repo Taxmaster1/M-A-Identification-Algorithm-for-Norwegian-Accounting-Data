@@ -6,3 +6,5 @@ The algorithm takes the input of data by Regnskapsdatabasen by SNF and marks M&A
 Without changing any parameters, the M&A algorithm needs at least 5 years of data to work. We used data for 2004 to 2020 initially, as earlier years contained errors and were missing the ownership variable, which is crucial for the identification of a majority owner.
 
 The output is a data set that satisfies the time frame condition of at least five observations per company and marked M&As by the ma2 variable. The ma2 variable is defined as 1 in the pre-acquisition year, and zero otherwise. It thus marks the treated observations and the proposed matching year for treatment analysis.
+
+Please note that the algorithm is created for readability and understandability. It is not coded for efficency and has a very long running time.
