@@ -1,2 +1,4 @@
 # M-A-Identification-Alogirthm-for-Norwegian-Accounting-Data
 The algorithm takes Norwegian accounting data from Regnskapsdatabasen and identifies instances of M&amp;A. It identifies M&amp;A based on a change in parent organization and name. 
+
+The algorithm takes the input of data by Regnskapsdatabasen by SNF and marks M&As from the data. Prior to feeding the data to the algorithm, you must merge the origintal datasets to combine accounting data and firm charachteristics. Then, you must merge the different year-files you are interested in togheter. Without changing any parameters, the M&A algorithm needs at least 5 years of data to work. We used data for 2004 to 2020 initialy, as earlier years contained errors and were missing the ownership variable, which is crucial for the identification of a majority owner.
