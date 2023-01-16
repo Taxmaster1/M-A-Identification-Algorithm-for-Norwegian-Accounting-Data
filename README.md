@@ -1,4 +1,4 @@
-# M-A-Identification-Alogirthm-for-Norwegian-Accounting-Data
+# M-A-Identification-Algorithm-for-Norwegian-Accounting-Data
 The algorithm takes Norwegian accounting data from Regnskapsdatabasen and identifies instances of M&amp;A. It identifies M&amp;A based on a change in parent organization and name. 
 
 The algorithm takes the input of data by Regnskapsdatabasen by SNF and marks M&As from the data. Prior to feeding the data to the algorithm, you must merge the original datasets to combine accounting data and firm characteristics. Then, you must append the different year-files you are interested in together. You then have to convert the data set into XLS before feeding it to the algorithm.
